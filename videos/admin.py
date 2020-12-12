@@ -4,7 +4,7 @@ from django.contrib import admin
 from . import models
 
 class MovieAdmin(admin.ModelAdmin):
-
+    #customizations formed for admin
     fields = ['release_year','title','length']    
 
     search_fields = ['title','length']
